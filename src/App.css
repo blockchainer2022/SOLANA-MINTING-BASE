@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-content {
+  color: rgba(255, 255, 255, 0.87);
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgb(31 38 135 / 37%) 0px 8px 32px 0px;
+  padding: 1rem;
+  border-radius: 10px;
+  backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  max-width: 200px;
+}
+.wallet-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet-content p {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.wallet-content .MuiButtonBase-root span {
+  justify-content: center;
+}
